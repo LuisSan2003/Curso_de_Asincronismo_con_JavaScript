@@ -18,3 +18,7 @@ const anotherFunction = async (url_api) => {
 console.log('Before');
 anotherFunction(API);
 console.log('After');
+
+/*VENTAJAS: Son fáciles de leer, también vamos a esperar a que algo suceda.
+    DESVENTAJAS: Tenemos que esperar por cada uno de los llamados. También
+        requerimos de un codify para compilar */

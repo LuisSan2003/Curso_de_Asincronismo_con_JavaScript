@@ -14,3 +14,7 @@ fetchData(API)
         console.log(data.dimension);
     })
     .catch(err => console.error(err));
+
+/*VENTAJAS: Son facilmente enlazables. Nos permiten trabajar con asincronismo
+    DESVENTAJAS: No maneja excepciones, sino que tiene un catch al final.
+        Requiere una herramienta como Babel para poder compilar*/

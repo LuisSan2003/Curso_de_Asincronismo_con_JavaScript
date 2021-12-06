@@ -29,3 +29,7 @@ fetchData(API, function (error1, data1) {
         })
     })
 })
+
+/* VENTAJAS: Los callbacks son universales (corren en cualquier navegador), fáciles de implementar.
+    DESVENTAJAS: La composición es un poco tosca y compleja, 
+    ademas el callback hell es un problema*/
